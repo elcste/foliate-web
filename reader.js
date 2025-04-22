@@ -188,8 +188,9 @@ class Reader {
     }
     #handleKeydown(event) {
         const k = event.key
-        if (k === 'ArrowLeft' || k === 'h') this.view.goLeft()
-        else if(k === 'ArrowRight' || k === 'l') this.view.goRight()
+        const s = event.shiftKey
+        if (k === 'ArrowLeft' || k === 'h' || (k === ' ' && s === true)) this.view.goLeft()
+        else if(k === 'ArrowRight' || k === 'l' || k === ' ') this.view.goRight()
     }
     #onLoad({ detail: { doc } }) {
         doc.addEventListener('keydown', this.#handleKeydown.bind(this))
