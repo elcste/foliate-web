@@ -15,7 +15,7 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
         }
     }
     body {
-        font-famiy: Gelasio, Georgia, serif;
+        font-family: Gelasio, Georgia, serif;
     }
     p, li, blockquote, dd {
         line-height: 1.7;
