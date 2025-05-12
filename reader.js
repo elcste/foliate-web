@@ -14,9 +14,12 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
             color: lightblue;
         }
     }
+    body {
+        font-famiy: Gelasio, Georgia, serif;
+    }
     p, li, blockquote, dd {
         line-height: 1.7;
-        text-align: unset;
+        text-align: unset !important;
         -webkit-hyphens: ${hyphenate ? 'auto' : 'manual'};
         hyphens: ${hyphenate ? 'auto' : 'manual'};
         -webkit-hyphenate-limit-before: 3;
