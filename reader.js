@@ -28,7 +28,8 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
         hanging-punctuation: allow-end last;
         widows: 2;
     }
-    p.center {
+    p.center,
+    p.CT {
         text-align: center !important;
     }
     /* prevent the above from overriding the align attribute */
