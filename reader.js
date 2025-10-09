@@ -32,6 +32,10 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
     p.CT {
         text-align: center !important;
     }
+    p.indent,
+    p.noindent {
+        font-family: unset;
+    }
     /* prevent the above from overriding the align attribute */
     [align="left"] { text-align: left; }
     [align="right"] { text-align: right; }
