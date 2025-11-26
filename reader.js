@@ -19,7 +19,7 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
     }
     p, li, blockquote, dd {
         line-height: 1.7;
-        text-align: unset !important;
+        /* text-align: unset !important; */
         -webkit-hyphens: ${hyphenate ? 'auto' : 'manual'};
         hyphens: ${hyphenate ? 'auto' : 'manual'};
         -webkit-hyphenate-limit-before: 3;
@@ -37,7 +37,7 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
     .para-p-alt,
     .para-pf,
     .para-sp {
-    	line-height: 1.9 !important;
+    	line-height: 1.7 !important;
     	text-align: unset !important;
     }
     
