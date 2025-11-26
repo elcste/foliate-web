@@ -28,14 +28,19 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
         hanging-punctuation: allow-end last;
         widows: 2;
     }
-    p.center,
-    p.CT {
-        text-align: center !important;
+    /* Sea of Grass */
+    .para-fmp,
+    .para-fmpf,
+    .para-fmsp,
+    .para-illcapf,
+    .para-p,
+    .para-p-alt,
+    .para-pf,
+    .para-sp {
+    	line-height: 1.9 !important;
+    	text-align: unset !important;
     }
-    p.indent,
-    p.noindent {
-        font-family: unset;
-    }
+    
     /* prevent the above from overriding the align attribute */
     [align="left"] { text-align: left; }
     [align="right"] { text-align: right; }
