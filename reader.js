@@ -35,6 +35,7 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
     .para-illcapf,
     .para-p,
     .para-p-alt,
+    .para-paft,
     .para-pf,
     .para-sp {
     	line-height: 1.7 !important;
