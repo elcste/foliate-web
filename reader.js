@@ -41,6 +41,14 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
     	line-height: 1.7 !important;
     	text-align: unset !important;
     }
+
+    /* Imperial Twilight */
+    p {
+        text-align: unset;
+    }
+    .figure_inline > img {
+        filter: invert(100%);
+    }
     
     /* prevent the above from overriding the align attribute */
     [align="left"] { text-align: left; }
