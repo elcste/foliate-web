@@ -46,7 +46,7 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
     p {
         text-align: unset;
     }
-    .figure_inline > img {
+    .figure_inline img {
         filter: invert(100%);
     }
     
