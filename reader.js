@@ -28,6 +28,42 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
         hanging-punctuation: allow-end last;
         widows: 2;
     }
+
+    /* America, América */
+    p.x01-FM-Epigraph-FL_1,
+    p.x01-FM-Epigraph-FL_First,
+    p.x03-CO-Body-Text,
+    p.x04-Body-Text,
+    p.x04-Body-Text-FL,
+    p.x04-Space-Break-FL,
+    p.x06-Extract-1P,
+    p.x07-List-Unnumbered,
+    p.x07-List-Unnumbered-First,
+    p.x07-List-Unnumbered-Last,
+    p.x13-BM-Ack,
+    p.x13-BM-Ack-First,
+    p.x13-BM-Biblio-First,
+    p.x13-BM-Body-Text-FL,
+    p.xFootnote-Text,
+    p.link_to_text,
+    p.x13-BM-Endnotes {
+    	text-align: unset;
+    }
+    li {
+    	text-align: unset !important;
+    }
+    img[role="presentation"] {
+    	filter: invert(100%);
+    }
+
+    /* Imperial Twilight */
+    p {
+        text-align: unset;
+    }
+    .figure_inline > img {
+        filter: invert(100%);
+    }
+
     /* Sea of Grass */
     .para-fmp,
     .para-fmpf,
@@ -40,14 +76,6 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
     .para-sp {
     	line-height: 1.7 !important;
     	text-align: unset !important;
-    }
-
-    /* Imperial Twilight */
-    p {
-        text-align: unset;
-    }
-    .figure_inline img {
-        filter: invert(100%);
     }
     
     /* prevent the above from overriding the align attribute */
