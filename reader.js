@@ -49,7 +49,9 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
     p.x13-BM-Endnotes {
     	text-align: unset;
     }
-    li {
+    li,
+    .non_para,
+    .in_para {
     	text-align: unset !important;
     }
     img[role="presentation"] {
