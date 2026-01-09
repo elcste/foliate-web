@@ -79,7 +79,55 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
     	line-height: 1.7 !important;
     	text-align: unset !important;
     }
-    
+
+    /* The Singapore Grip */
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+    	color: unset !important;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    p.part,
+    p.subtitle,
+    p.title {
+    	font-family: sans-serif;
+    }
+    p.part {
+    	text-align: unset;
+    }
+    blockquote,
+    p.body-text,
+    p.caption,
+    p.dedication,
+    p.excerpt,
+    p.excerpt1,
+    p.excerpt2,
+    p.excerpt3,
+    p.footnote-text,
+    p.new-section,
+    p.no-indent {
+    	color: unset;
+    	font-size: unset;
+    	line-height: 1.7;
+    	text-align: unset;
+    }
+    p.center,
+    p.centerspace,
+    p.right {
+    	color: unset;
+    	font-size: unset;
+    	line-height: 1.7;
+    }
+    span.small-caps {
+    	text-transform: unset;
+    	font-variant: small-caps;
+    }
+
     /* prevent the above from overriding the align attribute */
     [align="left"] { text-align: left; }
     [align="right"] { text-align: right; }
