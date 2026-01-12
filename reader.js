@@ -29,6 +29,10 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
         widows: 2;
     }
 
+    div.Para  {
+        line-height: 1.7;
+    }
+    
     /* America, América */
     p.x01-FM-Epigraph-FL_1,
     p.x01-FM-Epigraph-FL_First,
