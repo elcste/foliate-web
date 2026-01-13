@@ -18,6 +18,7 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
         font-family: Gelasio, Georgia, serif;
     }
     p, li, blockquote, dd {
+        font-size: .95em;
         line-height: 1.7;
         /* text-align: unset !important; */
         -webkit-hyphens: ${hyphenate ? 'auto' : 'manual'};
