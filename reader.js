@@ -30,7 +30,9 @@ const getCSS = ({ spacing, justify, hyphenate }) => `
         widows: 2;
     }
 
+    /* Springer */
     div.Para  {
+        font-size: .95em;
         line-height: 1.7;
     }
     
